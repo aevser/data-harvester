@@ -28,6 +28,6 @@ class GetIncome extends Command
     {
         $incomes = $getIncomeService->setIncomes();
 
-        if ($incomes) { $this->info('Данные о доходах успешно поклучены.'); }
+        if ($incomes) { $this->info('Данные о доходах успешно получены.'); }
     }
 }
